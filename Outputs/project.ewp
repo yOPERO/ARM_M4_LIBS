@@ -1885,6 +1885,9 @@
     <name>$PROJ_DIR$\ports.h</name>
   </file>
   <file>
+    <name>$PROJ_DIR$\switches_leds.c</name>
+  </file>
+  <file>
     <name>$PROJ_DIR$\timer.c</name>
   </file>
 </project>

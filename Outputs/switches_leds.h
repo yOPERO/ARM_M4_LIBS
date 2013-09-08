@@ -1,14 +1,17 @@
+
 /*--------------------------------------------------*-
-  main.h (v1.1)
+  switches_leds.h (v1.1)
   ----------------------------------------------------
-  header for ARM M4 LX4F120XL -->Texas Instruments
+  see switches_leds.c
 -*--------------------------------------------------*/
 
-#ifndef __MAIN_H__
-#define __MAIN_H__
+#ifndef __SWITCHES_LEDS_H__
+#define __SWITCHES_LEDS_H__
 
-/* Microcontroller header file*/
-#include "lm4f120h5qr.h"
+
+/* Public function prototypes*/
+unsigned long PortF_Input(unsigned long status);   
+void switches_leds(void);
 
 #endif
 

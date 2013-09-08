@@ -1,17 +1,20 @@
-// PLL.h
-/*Phase Locked Loop(pag221 DS)
-Divide PLL as 400 MHz vs. 200 MHz
-This bit, along with the SYSDIV2LSB bit, allows additional frequency
-choices.*/
-/*
-bus frequency is 400MHz/(SYSDIV2+1) = 400MHz/(7+1) = 50 MHz
-bus frequency is 400MHz/(SYSDIV2+1) = 400MHz/(4+1) = 80 MHz
-*/
-//SYSDIV2 initializes  the PLL to the desired frequency.
+/*--------------------------------------------------*-
+    PLL.h (v1.1)
+    --------------------------------------------------
+    See pll.c for details
+    Phase Locked Loop(pag221 DS)
+    Divide PLL as 400 MHz vs. 200 MHz
+    This bit, along with the SYSDIV2LSB bit, allows additional frequency
+    choices.    
+    bus frequency is 400MHz/(SYSDIV2+1) = 400MHz/(7+1) = 50 MHz
+    bus frequency is 400MHz/(SYSDIV2+1) = 400MHz/(4+1) = 80 MHz
+    
+-*--------------------------------------------------*/
 
-#define SYSDIV2 7
+/* Public Constants*/
+#define SYSDIV2 7 //SYSDIV2 initializes  the PLL to the desired frequency.
 
-// configure the system to get its clock from the PLL
+/* Public Function Prototpe*/
 void PLL_Init(void);
 
 
@@ -146,3 +149,6 @@ SYSDIV2  Divisor  Clock (MHz)
  126      127     3.150
  127      128     3.125
 */
+   /*--------------------------------------------------*-
+-----  END OF FILE  ----------------------------------
+-*--------------------------------------------------*/

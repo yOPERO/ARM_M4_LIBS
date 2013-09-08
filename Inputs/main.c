@@ -2,7 +2,7 @@
   main.c (v1.1)
   ---------------------------------------------------
   Example of clearing and setting pins 
-    individually and also writing directly to the port
+  individually and also writing directly to the port
 -*-------------------------------------------------*/
 #include "main.h"
 #include "ports.h"
@@ -54,7 +54,7 @@ int main(){
     return 0;
 }
 /*--------------------------------------------------*-
------  END OF FILE  ----------------------------------
+-----  END OF FILE -----------------------------------
 -*--------------------------------------------------*/
 
 

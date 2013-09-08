@@ -7,9 +7,9 @@ All examples for the ARM Cortez LX4F120XL from Texas Instruments.
 
 *Inputs	
 
-*Outputs	//TBD
+*Outputs	
 
-*Timers/Counters	//TBD
+*Timers/Counters	
 
 *UART	//TBD
 
@@ -19,7 +19,7 @@ All examples for the ARM Cortez LX4F120XL from Texas Instruments.
 
 *WDT 	//TBD
 
-*Input Capture 	//TBD
+*Input Capture 	
 
 *Output Compare Modes *	//TBD
 
